@@ -1,0 +1,38 @@
+{
+    "name": "oauth_custom_component",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react-scripts": "5.0.0",
+        "streamlit-component-lib": "1.4.0"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "craco eject",
+        "preinstall": "npx npm-force-resolutions"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "homepage": ".",
+    "devDependencies": {
+        "@craco/craco": "^7.1.0"
+    },
+    "resolutions": {
+        "nth-check": "2.0.1"
+    }
+}

@@ -1,0 +1,7 @@
+# Placeholder for GitLab CI/CD pipeline
+stages:
+  - test
+test:
+  stage: test
+  script:
+    echo "Dummy CI/CD pipeline"
